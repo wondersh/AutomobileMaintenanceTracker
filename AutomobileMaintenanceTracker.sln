@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomobileMaintenanceTracker", "AutomobileMaintenanceTracker\AutomobileMaintenanceTracker.csproj", "{A88BC10D-0A9D-4DCC-A089-125E49B70A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomobileMaintenanceTracker.Tests", "AutomobileMaintenanceTracker.Tests\AutomobileMaintenanceTracker.Tests.csproj", "{90F902D7-EA1A-4C5C-8520-CB85B8BF47E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88BC10D-0A9D-4DCC-A089-125E49B70A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88BC10D-0A9D-4DCC-A089-125E49B70A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88BC10D-0A9D-4DCC-A089-125E49B70A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88BC10D-0A9D-4DCC-A089-125E49B70A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F902D7-EA1A-4C5C-8520-CB85B8BF47E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F902D7-EA1A-4C5C-8520-CB85B8BF47E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F902D7-EA1A-4C5C-8520-CB85B8BF47E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F902D7-EA1A-4C5C-8520-CB85B8BF47E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

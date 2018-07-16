@@ -1,0 +1,24 @@
+﻿@using MyToolkit.Html
+@model AutomobileMaintenanceTracker.Models.MaintainceTask
+<li>
+    <div class="panel panel-default panel-body">
+        @using (Html.BeginCollectionItem("MaintainceTasks"))
+        {
+            @Html.HiddenFor(m => m.CarId)
+            @Html.HiddenFor(m => m.Type)
+            <p>
+                @Model.Type
+            </p>
+            <p>
+                @Html.LabelFor(m => m.LastTime)
+                @Html.TextBoxFor(m => m.LastTime, "{0:dd/MM/yyyy HH:mm}", new { @class = "form-control datetimepicker " })
+                @Html.ValidationMessageFor(m => m.LastTime, null, new { @class = "text-danger" })
+            </p>
+            <p>
+                @Html.LabelFor(m => m.NextTime)
+                @Html.TextBoxFor(m => m.NextTime, "{0:dd/MM/yyyy HH:mm}", new { @class = "form-control datetimepicker " })
+                @Html.ValidationMessageFor(m => m.NextTime, null, new { @class = "text-danger" })
+            </p>
+        }
+    </div>
+</li>
